@@ -10,3 +10,6 @@ def get_arguments() -> Tuple[str, str]:
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--target", dest="target",
                     help="Specify target IP")
+    parser.add_argument("-g", "--gateway", dest="gateway",
+                        help="Specify gateway IP")
+    args = parser.parse_args()

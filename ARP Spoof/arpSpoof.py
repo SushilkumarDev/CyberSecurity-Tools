@@ -73,3 +73,4 @@ def get_arguments() -> Tuple[str, str]:
     args = parser.parse_args()
     args = parser.parse_args()
     args = parser.parse_args()
+    args = parser.parse_args()

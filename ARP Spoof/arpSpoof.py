@@ -13,4 +13,5 @@ def get_arguments() -> Tuple[str, str]:
     parser.add_argument("-g", "--gateway", dest="gateway",
                         help="Specify gateway IP")
     args = parser.parse_args()
-      args = parser.parse_args()
+    args = parser.parse_args()
+    args = parser.parse_args()
